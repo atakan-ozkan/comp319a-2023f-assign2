@@ -1,0 +1,114 @@
+<workouts>
+    <day number="1">
+        <gender type="Male">
+            <workout name="Bench Press" />
+            <workout name="Push Up" />
+            <workout name="Decline Dumbbell Press" />
+            <workout name="Leg Pull-Ins" />
+            <workout name="Squat" />
+        </gender>
+        <gender type="Female">
+            <workout name="Abdominal Workout" />
+            <workout name="Cobra Lat Pulldown" />
+            <workout name="Leg Stretching" />
+            <workout name="Squat" />
+            <workout name="Inverted Plank" />
+        </gender>
+    </day>
+    <day number="2">
+        <gender type="Male">
+            <workout name="Dumbbell Back Row" />
+            <workout name="Push Up" />
+            <workout name="Deadlift" />
+            <workout name="Lateral Raise" />
+            <workout name="Biceps Workout" />
+        </gender>
+        <gender type="Female">
+            <workout name="Single Leg Deadlift" />
+            <workout name="Squat" />
+            <workout name="Leg Stretching" />
+            <workout name="Squat" />
+            <workout name="Lower Abs Workout" />
+        </gender>
+    </day>
+    <day number="3">
+        <gender type="Male">
+            <workout name="Skull Crusher Triceps" />
+            <workout name="Push Up" />
+            <workout name="Seated Twist" />
+            <workout name="Leg Pull-Ins" />
+            <workout name="Squat" />
+        </gender>
+        <gender type="Female">
+            <workout name="Side Leg Raise" />
+            <workout name="Squat" />
+            <workout name="Inverted Plank" />
+            <workout name="Abdominal Workout" />
+            <workout name="Lower Abs Workout" />
+        </gender>
+    </day>
+    <day number="4">
+        <gender type="Male">
+            <workout name="Bench Press" />
+            <workout name="Deadlift" />
+            <workout name="Dumbbell Back Row" />
+            <workout name="Lateral Raise" />
+            <workout name="Squat" />
+        </gender>
+        <gender type="Female">
+            <workout name="Cobra Lat Pulldown" />
+            <workout name="Single Leg Deadlift" />
+            <workout name="Leg Stretching" />
+            <workout name="Squat" />
+            <workout name="Push Up" />
+        </gender>
+    </day>
+    <day number="5">
+        <gender type="Male">
+            <workout name="Push Up" />
+            <workout name="Biceps Workout" />
+            <workout name="Leg Pull-Ins" />
+            <workout name="Seated Twist" />
+            <workout name="Squat" />
+        </gender>
+        <gender type="Female">
+            <workout name="Lower Abs Workout" />
+            <workout name="Side Leg Raise" />
+            <workout name="Squat" />
+            <workout name="Inverted Plank" />
+            <workout name="Abdominal Workout" />
+        </gender>
+    </day>
+    <day number="6">
+        <gender type="Male">
+            <workout name="Decline Dumbbell Press" />
+            <workout name="Dumbbell Back Row" />
+            <workout name="Deadlift" />
+            <workout name="Lateral Raise" />
+            <workout name="Leg Pull-Ins" />
+        </gender>
+        <gender type="Female">
+            <workout name="Cobra Lat Pulldown" />
+            <workout name="Single Leg Deadlift" />
+            <workout name="Leg Stretching" />
+            <workout name="Push Up" />
+            <workout name="Squat" />
+        </gender>
+    </day>
+    <day number="7">
+        <gender type="Male">
+            <workout name="Skull Crusher Triceps" />
+            <workout name="Biceps Workout" />
+            <workout name="Squat" />
+            <workout name="Push Up" />
+            <workout name="Leg Pull-Ins" />
+        </gender>
+        <gender type="Female">
+            <workout name="Abdominal Workout" />
+            <workout name="Inverted Plank" />
+            <workout name="Squat" />
+            <workout name="Lower Abs Workout" />
+            <workout name="Side Leg Raise" />
+        </gender>
+    </day>
+</workouts>
