@@ -5,7 +5,7 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
 
-class UserModelService : ViewModel() {
+class UserViewModel : ViewModel() {
     var user = UserModel("", "", "",0.0, 0.0, 0, MutableList(30) { false } )
         private set
 
@@ -51,14 +51,14 @@ class UserModelService : ViewModel() {
         return false
     }
 
-    fun deleteUser(context: Context, userModelService: UserModelService) {
+    fun deleteUser(context: Context, userViewModel: UserViewModel) {
         val sharedPreferences = context.getSharedPreferences("UserPreferences", Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
 
         editor.remove("UserData")
         editor.apply()
         sharedPreferences.edit().clear().apply()
-        userModelService.user = UserModel("", "", "", 0.0, 0.0, 0, MutableList(30) { false })
+        userViewModel.user = UserModel("", "", "", 0.0, 0.0, 0, MutableList(30) { false })
     }
 
 

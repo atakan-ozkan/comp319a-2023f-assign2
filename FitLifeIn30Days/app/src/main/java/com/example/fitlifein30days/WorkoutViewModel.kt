@@ -1,10 +1,11 @@
 package com.example.fitlifein30days
 
 import android.content.Context
+import androidx.lifecycle.ViewModel
 import org.xmlpull.v1.XmlPullParser
 import java.io.IOException
 
-class WorkoutModelService (context: Context){
+class WorkoutViewModel (context: Context) : ViewModel(){
     private val workoutsForMale = listOf(
         WorkoutModel(R.drawable.benchpressman, "Bench Press"),
         WorkoutModel(R.drawable.bicepsman, "Biceps Workout"),
